@@ -1,12 +1,11 @@
 pipeline {
     agent any
     tools {
-        maven 'mvn-3.8'
+        maven 'mvn-3.9'
         jdk 'jdk-17'
     }
 
     stages {
-
         stage('mvn complie') {
             steps {
                 sh 'mvn compile'
