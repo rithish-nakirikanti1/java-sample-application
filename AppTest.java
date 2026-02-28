@@ -8,6 +8,6 @@ class AppTest {
     @Test
     void testGreet() {
         String result = App.greet("Rithish");
-        assertEquals("Hello, Rithish1!", result);
+        assertEquals("Hello, Rithish12!", result);
     }
 }
